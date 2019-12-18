@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "0e28eb56-5ffc-4810-8e30-e8c91e5a301a",
+            "Value": {
+                "id": "2ccc3bee-dfce-47bf-a459-0efd2b61694e",
+                "resourcePath": "scripts\/get_input_gamepad\/get_input_gamepad.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1375c462-cd3b-45df-9d53-54bcf6366720",
             "Value": {
                 "id": "3a141e8d-135f-4a92-b879-35cb55efd5e2",
                 "resourcePath": "views\/1375c462-cd3b-45df-9d53-54bcf6366720.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2bddc210-c5e9-4384-968f-fa993ee36652",
+            "Value": {
+                "id": "6c42408e-6b58-4bad-bd38-3fa5bda7201d",
+                "resourcePath": "scripts\/collision\/collision.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -63,6 +79,14 @@
             }
         },
         {
+            "Key": "4c58f4fb-db97-4dc2-8392-3d0862001d58",
+            "Value": {
+                "id": "9e406d67-8643-4cf5-83e4-6b68929e89b5",
+                "resourcePath": "sprites\/s_splod\/s_splod.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5211613e-3fe6-418b-aad8-c961a3ffd648",
             "Value": {
                 "id": "485d2c99-81a1-4180-b275-0674790aeb89",
@@ -71,11 +95,51 @@
             }
         },
         {
+            "Key": "52c8dcde-d2bc-484b-8fd9-c12713416793",
+            "Value": {
+                "id": "fc5fc5d5-6e9b-4053-846b-fdfa09022101",
+                "resourcePath": "sprites\/s_player_xx1\/s_player_xx1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57bdd620-e344-4dcf-b064-af42315db85b",
+            "Value": {
+                "id": "c535b444-964d-437a-a12a-10dd4118adee",
+                "resourcePath": "objects\/o_solid\/o_solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "59231179-11c2-41c0-84e3-fae4eb680d45",
+            "Value": {
+                "id": "5dff6b74-86a2-4c3a-8cbb-c450285d1584",
+                "resourcePath": "scripts\/get_input_keyboard\/get_input_keyboard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5ab23e5f-f2bc-4ad5-98c3-98b0ca31de0f",
+            "Value": {
+                "id": "c2f26db9-d729-45e7-ab2f-de65854fe628",
+                "resourcePath": "scripts\/check_jump\/check_jump.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5d9add73-88b8-49fa-84bc-01753d2cc806",
             "Value": {
                 "id": "de29b826-d554-4c6f-9e9b-59652c6c0888",
                 "resourcePath": "views\/5d9add73-88b8-49fa-84bc-01753d2cc806.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63fd98d9-2676-4210-8fc2-df57f7870b18",
+            "Value": {
+                "id": "d237e45f-2bdf-44c6-8756-2ca552a1f88d",
+                "resourcePath": "objects\/o_game\/o_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -143,6 +207,22 @@
             }
         },
         {
+            "Key": "c476172e-4e91-44ba-9531-34f8c09852ce",
+            "Value": {
+                "id": "6dad7239-f606-4c8a-ab62-72849a43dffa",
+                "resourcePath": "sprites\/s_player_xx\/s_player_xx.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c62d8c03-b628-420b-a8ac-94eb92679c32",
+            "Value": {
+                "id": "5d48c711-6b47-4cf2-87d9-b3156f586588",
+                "resourcePath": "objects\/o_entity\/o_entity.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d0d375ec-639c-4975-8212-6a2a4852cbb4",
             "Value": {
                 "id": "9b59e5e1-deb7-4e1f-878e-6395f825669f",
@@ -189,10 +269,22 @@
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fa20397b-9abd-4a26-9c32-c465eba86897",
+            "Value": {
+                "id": "04a5bc7d-1eff-4d94-b96d-639df9fa430a",
+                "resourcePath": "scripts\/calc_movement\/calc_movement.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "0e28eb56-5ffc-4810-8e30-e8c91e5a301a",
+        "59231179-11c2-41c0-84e3-fae4eb680d45",
+        "2bddc210-c5e9-4384-968f-fa993ee36652",
+        "fa20397b-9abd-4a26-9c32-c465eba86897",
+        "5ab23e5f-f2bc-4ad5-98c3-98b0ca31de0f"
     ],
     "tutorial": ""
 }

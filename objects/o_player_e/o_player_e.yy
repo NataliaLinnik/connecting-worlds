@@ -13,11 +13,21 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "78bc9b3b-7edf-417c-a87d-08bfd2998ba5"
+        },
+        {
+            "id": "4d8e9680-decb-496d-b425-f119da1e11a2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "78bc9b3b-7edf-417c-a87d-08bfd2998ba5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "c62d8c03-b628-420b-a8ac-94eb92679c32",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -47,7 +57,7 @@
             "varType": 0
         },
         {
-            "id": "accf49eb-5b87-477e-bfe5-e49d558f0d6f",
+            "id": "3833efaf-9f1f-4852-95c2-bbe058c93bcc",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -56,26 +66,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hsp",
-            "varType": 0
-        },
-        {
-            "id": "2b384130-8875-4bbc-a8fc-5cefc84f970b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.9",
-            "varName": "drag",
+            "value": "9",
+            "varName": "jump_spd",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "84991988-1dbf-4384-af64-9ec98f8f50a2",
+    "spriteId": "c476172e-4e91-44ba-9531-34f8c09852ce",
     "visible": true
 }
