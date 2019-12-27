@@ -98,6 +98,20 @@
             "value": "9",
             "varName": "jump_spd",
             "varType": 0
+        },
+        {
+            "id": "154ab017-f01b-40c0-a1d7-11fab8a0fc53",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "bs.EMPTY",
+            "varName": "busy_with",
+            "varType": 0
         }
     ],
     "solid": false,

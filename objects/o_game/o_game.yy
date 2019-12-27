@@ -79,6 +79,48 @@
             "value": "0",
             "varName": "global.coins",
             "varType": 0
+        },
+        {
+            "id": "c4b33501-6ccc-4cc0-beb3-5c4db52464dd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "global.b_fe",
+            "varType": 1
+        },
+        {
+            "id": "3775f6d0-2680-403f-a60e-82bd4dfc5cb7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "global.b_be",
+            "varType": 1
+        },
+        {
+            "id": "7a2c23b7-a797-4033-9a44-aa947226d1ce",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "global.b_ux",
+            "varType": 1
         }
     ],
     "solid": false,
