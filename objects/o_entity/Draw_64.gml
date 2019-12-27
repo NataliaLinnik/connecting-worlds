@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 2EC57290
+/// @DnDArgument : "x" "200"
+/// @DnDArgument : "y" "50"
+/// @DnDArgument : "sprite" "s_FE"
+/// @DnDSaveInfo : "sprite" "32b02a22-2b8f-491c-bce6-a22760899192"
+draw_sprite(s_FE, 0, 200, 50);
+
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 43773FEE
@@ -35,7 +44,25 @@ draw_set_alpha(l2BB1BADB_0 / $ff);
 /// @DnDVersion : 1
 /// @DnDHash : 3258919E
 /// @DnDArgument : "x" "22"
-/// @DnDArgument : "y" "30"
+/// @DnDArgument : "y" "40"
 /// @DnDArgument : "caption" ""FE: ""
 /// @DnDArgument : "var" "global.b_fe"
-draw_text(22, 30, string("FE: ") + string(global.b_fe));
+draw_text(22, 40, string("FE: ") + string(global.b_fe));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 1C0000A8
+/// @DnDArgument : "x" "22"
+/// @DnDArgument : "y" "80"
+/// @DnDArgument : "caption" ""BE: ""
+/// @DnDArgument : "var" "global.b_be"
+draw_text(22, 80, string("BE: ") + string(global.b_be));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 5A507B0F
+/// @DnDArgument : "x" "22"
+/// @DnDArgument : "y" "120"
+/// @DnDArgument : "caption" ""UX: ""
+/// @DnDArgument : "var" "global.b_ux"
+draw_text(22, 120, string("UX: ") + string(global.b_ux));

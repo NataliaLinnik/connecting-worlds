@@ -2,18 +2,9 @@
     "id": "5f0a2283-5fe3-4cbd-9b67-5027acf2cd7c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_fe",
+    "name": "o_FE",
     "eventList": [
-        {
-            "id": "6532d05e-ba01-4736-93f3-053dd20e1e3e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "78bc9b3b-7edf-417c-a87d-08bfd2998ba5",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "5f0a2283-5fe3-4cbd-9b67-5027acf2cd7c"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
