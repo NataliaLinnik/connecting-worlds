@@ -1,59 +1,20 @@
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
-/// @DnDHash : 45A26478
-/// @DnDArgument : "color" "$FFFFFF00"
-draw_set_colour($FFFFFF00 & $ffffff);
-var l45A26478_0=($FFFFFF00 >> 24);
-draw_set_alpha(l45A26478_0 / $ff);
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 1E24A140
+/// @DnDArgument : "script" "draw_bg_up"
+/// @DnDSaveInfo : "script" "12c93aeb-d2ec-4614-a9fe-9408b77d8150"
+script_execute(draw_bg_up);
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
-/// @DnDVersion : 1
-/// @DnDHash : 3BC5388E
-/// @DnDApplyTo : 63fd98d9-2676-4210-8fc2-df57f7870b18
-/// @DnDArgument : "x2" "display_get_gui_width()"
-/// @DnDArgument : "y2" "55"
-/// @DnDArgument : "fill" "1"
-with(o_game) draw_rectangle(0, 0, display_get_gui_width(), 55, 0);
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 6DFF7784
+/// @DnDArgument : "script" "draw_backlog"
+/// @DnDSaveInfo : "script" "b81b19cd-c76c-43fb-a89f-7dae6e098f60"
+script_execute(draw_backlog);
 
-/// @DnDAction : YoYo Games.Drawing.Set_Font
-/// @DnDVersion : 1
-/// @DnDHash : 14BBC3C6
-/// @DnDArgument : "font" "fnt_coins"
-/// @DnDSaveInfo : "font" "9c56e805-3ff3-4a8e-a558-c2759f30f786"
-draw_set_font(fnt_coins);
-
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
-/// @DnDHash : 41952F43
-/// @DnDArgument : "color" "$66000000"
-draw_set_colour($66000000 & $ffffff);
-var l41952F43_0=($66000000 >> 24);
-draw_set_alpha(l41952F43_0 / $ff);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 46C783EE
-/// @DnDApplyTo : 63fd98d9-2676-4210-8fc2-df57f7870b18
-/// @DnDArgument : "x" "22"
-/// @DnDArgument : "y" "11"
-/// @DnDArgument : "caption" ""Coins: ""
-/// @DnDArgument : "var" "global.coins"
-with(o_game) draw_text(22, 11, string("Coins: ") + string(global.coins));
-
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
-/// @DnDHash : 3EF73A92
-/// @DnDArgument : "color" "$FF00FFFF"
-draw_set_colour($FF00FFFF & $ffffff);
-var l3EF73A92_0=($FF00FFFF >> 24);
-draw_set_alpha(l3EF73A92_0 / $ff);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 45236AC1
-/// @DnDApplyTo : 63fd98d9-2676-4210-8fc2-df57f7870b18
-/// @DnDArgument : "x" "20"
-/// @DnDArgument : "y" "8"
-/// @DnDArgument : "caption" ""Coins: ""
-/// @DnDArgument : "var" "global.coins"
-with(o_game) draw_text(20, 8, string("Coins: ") + string(global.coins));
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 795E4275
+/// @DnDArgument : "script" "draw_timer"
+/// @DnDSaveInfo : "script" "2f9a1224-13fd-4a01-b74f-4602f2149125"
+script_execute(draw_timer);

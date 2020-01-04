@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "436016c8-f90f-4dd7-8230-04a3f3baac99"
+        },
+        {
+            "id": "d334dd05-f917-4ece-84c9-91d01b0d31f0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "436016c8-f90f-4dd7-8230-04a3f3baac99"
         }
     ],
     "maskSpriteId": "e74a3eb5-ced7-4690-a3a0-7664c5997b23",
@@ -93,6 +103,20 @@
             "resourceFilter": 1023,
             "value": "9",
             "varName": "jump_spd",
+            "varType": 0
+        },
+        {
+            "id": "66c3103e-96c6-4315-b898-6bedb47aad70",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "room_speed * 1",
+            "varName": "time_for_hide",
             "varType": 0
         }
     ],

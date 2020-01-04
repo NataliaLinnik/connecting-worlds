@@ -98,5 +98,12 @@ switch(l103320CA_0)
 		/// @DnDArgument : "script" "anim_enemy"
 		/// @DnDSaveInfo : "script" "30d77790-dad5-4df0-be88-b07e25982a88"
 		script_execute(anim_enemy);
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 45B2A8DC
+		/// @DnDParent : 3ABCB035
+		/// @DnDArgument : "steps" "time_for_hide"
+		alarm_set(0, time_for_hide);
 		break;
 }

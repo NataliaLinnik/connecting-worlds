@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
-/// @DnDHash : 1E103977
+/// @DnDHash : 58F59305
 /// @DnDArgument : "script" "change_sprites"
 /// @DnDSaveInfo : "script" "0ae8e4cf-2f10-4292-946a-8bd0b7524a9d"
 script_execute(change_sprites);

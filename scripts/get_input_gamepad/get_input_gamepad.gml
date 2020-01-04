@@ -35,8 +35,9 @@ if(gamepad_is_connected(l048B6D29_0) && (gamepad_button_check(l048B6D29_0, l048B
 /// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Down
 /// @DnDVersion : 1.1
 /// @DnDHash : 380BDDFF
+/// @DnDArgument : "btn" "gp_face1"
 var l380BDDFF_0 = 0;
-var l380BDDFF_1 = gp_face4;
+var l380BDDFF_1 = gp_face1;
 if(gamepad_is_connected(l380BDDFF_0) && (gamepad_button_check(l380BDDFF_0, l380BDDFF_1) || gamepad_button_check_released(l380BDDFF_0, l380BDDFF_1)))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
