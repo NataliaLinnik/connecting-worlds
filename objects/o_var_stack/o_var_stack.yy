@@ -34,7 +34,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "FE",
+            "varName": "global.FE",
             "varType": 0
         },
         {
@@ -48,7 +48,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "BE",
+            "varName": "global.BE",
             "varType": 0
         },
         {
@@ -62,7 +62,49 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "UX",
+            "varName": "global.UX",
+            "varType": 0
+        },
+        {
+            "id": "35370055-d7fb-4f5b-b78b-4a1934fd1dd8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "global.bl_be",
+            "varType": 0
+        },
+        {
+            "id": "5acf777a-8f18-4641-8dea-26758c23f54b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "global.bl_ux",
+            "varType": 0
+        },
+        {
+            "id": "6979320b-3e9c-43d8-9c9e-36c842d2c554",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "global.bl_fe",
             "varType": 0
         }
     ],

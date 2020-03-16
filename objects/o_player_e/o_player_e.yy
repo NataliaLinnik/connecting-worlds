@@ -25,16 +25,6 @@
             "m_owner": "78bc9b3b-7edf-417c-a87d-08bfd2998ba5"
         },
         {
-            "id": "0a32167e-c297-4d27-a4e4-2ddb6593cc30",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "78bc9b3b-7edf-417c-a87d-08bfd2998ba5"
-        },
-        {
             "id": "1f3f79d4-3dca-4c15-9784-e3fae530904e",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "34e8142d-59f2-4594-8006-631baeee6d38",
             "enumb": 0,
             "eventtype": 4,
+            "m_owner": "78bc9b3b-7edf-417c-a87d-08bfd2998ba5"
+        },
+        {
+            "id": "e3a8e98a-e708-43e9-b1c5-dc4b2eb60aa6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
             "m_owner": "78bc9b3b-7edf-417c-a87d-08bfd2998ba5"
         }
     ],
@@ -111,6 +111,20 @@
             "resourceFilter": 1023,
             "value": "bs.EMPTY",
             "varName": "busy_with",
+            "varType": 0
+        },
+        {
+            "id": "fdd513db-cd5e-44df-a553-09bccef09584",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "room_speed * 5",
+            "varName": "freezen_time",
             "varType": 0
         }
     ],

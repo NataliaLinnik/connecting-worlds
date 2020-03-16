@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 007514F0
-/// @DnDArgument : "font" "fnt_coins"
+/// @DnDArgument : "font" "fnt_h2"
 /// @DnDSaveInfo : "font" "9c56e805-3ff3-4a8e-a558-c2759f30f786"
-draw_set_font(fnt_coins);
+draw_set_font(fnt_h2);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
@@ -17,8 +17,8 @@ draw_set_alpha(l3E30FD1B_0 / $ff);
 /// @DnDHash : 1637454C
 /// @DnDArgument : "x" "22"
 /// @DnDArgument : "y" "11"
-/// @DnDArgument : "caption" ""Backlog:""
-draw_text(22, 11, string("Backlog:") + "");
+/// @DnDArgument : "caption" ""Backlog""
+draw_text(22, 11, string("Backlog") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

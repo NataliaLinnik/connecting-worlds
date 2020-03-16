@@ -10,10 +10,10 @@ if(bounce < 2)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3FFA0A3B
 	/// @DnDParent : 1BDBB4E7
-	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr" "10"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "global.coins"
-	global.coins += 1;
+	/// @DnDArgument : "var" "global.experience"
+	global.experience += 10;
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

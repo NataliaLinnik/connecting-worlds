@@ -5,13 +5,23 @@
     "name": "o_box_par",
     "eventList": [
         {
-            "id": "289d3cd7-39ee-4f92-a9e7-51f66c3432d1",
+            "id": "1dcbe2b0-3d0a-4af7-933d-09754b0b1fdf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
-            "collisionObjectId": "78bc9b3b-7edf-417c-a87d-08bfd2998ba5",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 2,
+            "m_owner": "34e8142d-59f2-4594-8006-631baeee6d38"
+        },
+        {
+            "id": "e5f15290-c551-481b-9476-9317b7d77492",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 0,
             "m_owner": "34e8142d-59f2-4594-8006-631baeee6d38"
         }
     ],
