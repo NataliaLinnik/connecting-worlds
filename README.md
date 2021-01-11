@@ -1,2 +1,2 @@
-# ba_prototype
+# Connecting Worlds Game
 
